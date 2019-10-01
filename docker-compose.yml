@@ -1,0 +1,11 @@
+version: "3.6"
+
+services:
+  ffmpeg:
+    build:
+      context: ./ffmpeg
+      dockerfile: Dockerfile
+    container_name: ffmpeg
+    tty: true
+    volumes:
+      - ./tmp:/tmp
