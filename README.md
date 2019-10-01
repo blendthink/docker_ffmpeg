@@ -19,3 +19,6 @@ ffmpeg -version
 # コンテナ内で実行する
 ffmpeg -i ~.mov ~.mp4
 ```
+
+## その他
+- [FFmpeg Static Builds](https://www.johnvansickle.com/ffmpeg/)
