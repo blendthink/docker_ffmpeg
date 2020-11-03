@@ -4,7 +4,7 @@
 ## 使い方
 
 ```docker
-docker-compose -d up
+docker-compose up -d
 
 docker-compose exec ffmpeg /bin/bash
 
@@ -16,6 +16,7 @@ ffmpeg -version
 
 コンテナ内で実行する
 ```docker
+ffmpeg -i ~.mov -r 24 ~.gif
 ffmpeg -i ~.mov ~.mp4
 
 ffmpeg -i movie.mp4 -s 1920x1200 movie_out.mp4
