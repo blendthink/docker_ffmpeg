@@ -14,6 +14,11 @@ ffmpeg -version
 
 ## よく使うコマンド
 
+```bash
+# iPhone を録画
+xcrun simctl io booted recordVideo ~.mov
+```
+
 コンテナ内で実行する
 ```docker
 ffmpeg -i ~.mov -r 24 ~.gif
